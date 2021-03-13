@@ -20,6 +20,6 @@ deploy:
   bucket_name: "elasticbeanstalk-ap-northeast-2-441181517960"
   bucket_path: "docker-lecture7-react"
   on:
-    barnch: master
+    barnch: main
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
